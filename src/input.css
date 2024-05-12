@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Raleway';
+    font-display: swap;
+    src: url(./fonts/Raleway-Regular.woff2) format('woff2');
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Raleway Bold';
+    font-display: swap;
+    src: url(./fonts/Raleway-Bold.woff2) format('woff2');
+  }
+}
+
+
+@layer base {
+  @font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url(./fonts/Roboto-Regular.woff2) format('woff2');
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Roboto Bold';
+    font-display: swap;
+    src: url(./fonts/Roboto-Bold.woff2) format('woff2');
+  }
+}
+
+/* Custom CSS */
+
+.p_grid-area {
+  grid-area: 1 / 1;
+}
